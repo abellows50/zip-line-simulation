@@ -20,6 +20,15 @@ class Path{
     myLiners = new Liner[0]; 
 }
   
+  void checkCollision(Path other){
+    for(int i = 0; i < this.myLiners.length; i++){
+      for(int j = 0; j < other.myLiners.length; j++){
+         if(myLiners[i].checkCollision(other.myLiners[j])){
+           break;
+         }
+      }
+    }
+  }
   void display(){
     stroke(col);
     strokeWeight(3);
