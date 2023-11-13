@@ -17,10 +17,7 @@ class Path{
       startx -= xdisp;
       starty -= ydisp;
     }
-    println(startx + "<" + starty + "<" + endx + "<" + endy);
-    myLiners = new Liner[0];
-  
-
+    myLiners = new Liner[0]; 
 }
   
   void display(){
