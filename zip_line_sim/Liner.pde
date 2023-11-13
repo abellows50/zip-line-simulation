@@ -22,7 +22,6 @@ class Liner{
       stroke(#FF0000);
       fill(#FF0000);
       circle(x,y,size*1.5);
-      size ++;
     }
     else{
       circle(x,y,size);
