@@ -9,7 +9,6 @@ class Path{
     starty = endy = starty1;
     xdisp = xdisp1;
     ydisp = ydisp1;
-    //int large = min(width,height);
     while (0<=endx && endx<=width && 0<= endy && endy <= height){
       endx += xdisp;
       endy += ydisp;
@@ -19,10 +18,6 @@ class Path{
       starty -= ydisp;
     }
     println(startx + "<" + starty + "<" + endx + "<" + endy);
-    //endx = startx + large*xdisp;
-    //endy = starty +large*ydisp;
-    //startx = startx - large*xdisp;
-    //starty = starty - large*ydisp;
     myLiners = new Liner[0];
   
 
