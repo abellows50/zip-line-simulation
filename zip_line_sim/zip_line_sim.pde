@@ -16,7 +16,8 @@ void draw(){
   }
   for (int i = 0; i<pathArr.length; i++){
     pathArr[i].display();
-    pathArr[i].move(1);  
+    pathArr[i].move(1);
+    //pathArr[i].purge();
   }
   
 }

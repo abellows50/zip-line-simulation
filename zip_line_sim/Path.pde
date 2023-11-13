@@ -35,6 +35,29 @@ class Path{
     }
   }
   
+  //void purge(){
+  //  int last = 0;
+  //  while(last < myLiners.length - 1){
+  //    for(int i = last; i<myLiners.length; i++){
+  //      last = i;
+  //      println(i + "," + myLiners.length);
+  //      if (myLiners[i].x > width || myLiners[i].x < 0 ||
+  //          myLiners[i].y > width || myLiners[i].y < 0){
+  //            Liner[] newArr = new Liner[myLiners.length - 1];
+  //            for(int j = 0; j<i; j++){
+  //              newArr[j] = myLiners[i];
+  //            }
+  //            for(int j = i+1; j<newArr.length; j++){
+  //              newArr[j] = myLiners[i];
+  //            }
+  //            myLiners = newArr;
+  //            break;
+  //          }
+  //    }
+  //  }
+  //}
+      
+    
   void addLiner(int x,int y,int size){
     Liner[] newLiners;
     newLiners = myLiners;
